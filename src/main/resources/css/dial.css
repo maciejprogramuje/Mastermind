@@ -1,0 +1,38 @@
+.myDialog:header *.header-panel
+{
+    -fx-background-image: url('/images/light_bg.jpg');
+    -fx-font-size: 25px;
+}
+
+.myDialog:header *.header-panel *.label{
+    -fx-text-fill: white;
+}
+
+.myDialog > *.label
+{
+    -fx-background-image: url('/images/light_bg.jpg');
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+}
+
+.myDialog > *.button-bar > *.container
+{
+    -fx-background-image:url('/images/light_bg.jpg');
+}
+
+.myDialog > .content > .label
+ {
+    -fx-background-image: url('/images/light_bg.jpg');
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+}
+
+.myDialog > .content
+ {
+    -fx-background-image: url('/images/light_bg.jpg');
+}
+
+
+
